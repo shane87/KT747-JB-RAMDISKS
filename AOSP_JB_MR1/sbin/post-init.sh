@@ -14,7 +14,5 @@ echo 0 > /sys/class/leds/button-backlight/brightness;
 fi;
 echo 1 > /proc/sys/net/ipv4/tcp_tw_recycle;
 echo 1 > /proc/sys/net/ipv4/tcp_tw_reuse;
-echo 0 > /proc/sys/net/ipv4/conf/all/accept_source_route;
-echo 0 > /proc/sys/net/ipv4/conf/default/accept_source_route;
 
 echo $(date) END of post-init.sh
